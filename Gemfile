@@ -34,6 +34,7 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'rails_admin', '~> 2.0.0.beta'
 end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
